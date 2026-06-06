@@ -1,28 +1,28 @@
 class Lazymongo < Formula
   desc "A fast, keyboard-driven terminal UI for MongoDB"
   homepage "https://github.com/saheersk/lazymongo"
-  version "1.2.0"
+  version "1.2.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/saheersk/lazymongo/releases/download/v1.2.0/lazymongo_1.2.0_darwin_arm64.tar.gz"
-      sha256 "e758d334c002100befe712584f278c83e0e39113fdc0e1c5b8e5e0a285c4b420"
+      url "https://github.com/saheersk/lazymongo/releases/download/v1.2.1/lazymongo_1.2.1_darwin_arm64.tar.gz"
+      sha256 "038193de716ed3e6316aca9a31c0b407d8a290066dd051ec3a5ffd1f70c63e4a"
     end
     on_intel do
-      url "https://github.com/saheersk/lazymongo/releases/download/v1.2.0/lazymongo_1.2.0_darwin_amd64.tar.gz"
-      sha256 "00da0446524179854060368363520e64fa6a0f4291bb8b5c9516aca8874c63f4"
+      url "https://github.com/saheersk/lazymongo/releases/download/v1.2.1/lazymongo_1.2.1_darwin_amd64.tar.gz"
+      sha256 "8931be006883baa4696f8efcec3e616271a0060f443ac7168beda3461f92d99c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/saheersk/lazymongo/releases/download/v1.2.0/lazymongo_1.2.0_linux_arm64.tar.gz"
-      sha256 "e847c6e99adecf0ed3b753043e1f74d25f7429025e1e42018e5cc0f03f61901e"
+      url "https://github.com/saheersk/lazymongo/releases/download/v1.2.1/lazymongo_1.2.1_linux_arm64.tar.gz"
+      sha256 "806a0ad6bd4f9c5513288d6277664e0d7e31fc659625c7a1f2e48b7f3edfb7be"
     end
     on_intel do
-      url "https://github.com/saheersk/lazymongo/releases/download/v1.2.0/lazymongo_1.2.0_linux_amd64.tar.gz"
-      sha256 "f7814fd5b59956704608ad7213f62404bccda2e3f16b854cca84074877cc465e"
+      url "https://github.com/saheersk/lazymongo/releases/download/v1.2.1/lazymongo_1.2.1_linux_amd64.tar.gz"
+      sha256 "3dc8e2005a9a807c182e7860b7babcc6d5e134290c022ad12019e04340d2e061"
     end
   end
 
